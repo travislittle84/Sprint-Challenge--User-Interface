@@ -71,6 +71,40 @@ p {
     margin: 0 auto;
 }
 
+.top-menu {
+    /*border: 1px solid green;*/
+    width: 100%;
+    height: 60px;
+}
+
+nav {
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+nav .nav-item {
+    /*border: 1px solid red;*/
+    margin:  0 38px 0;
+}
+
+#menu-lambda-image {
+    background-image: url("/img/lambda-black.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 150px;    
+}
+
+#home-header-image {
+    background-image: url("/img/jumbo.png");
+    height: 153px;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
