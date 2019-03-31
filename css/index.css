@@ -72,7 +72,6 @@ p {
 }
 
 .top-menu {
-    /*border: 1px solid green;*/
     width: 100%;
     height: 60px;
 }
@@ -85,22 +84,21 @@ nav {
     align-items: baseline;
 }
 
-nav .nav-item {
-    /*border: 1px solid red;*/
+.top-menu nav .nav-item {
     margin:  0 38px 0;
 }
 
-a:link {
+.top-menu nav a:link {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: black; 
 }
 
-a:visited {
+.top-menu nav a:visited {
     color: black;
 }
 
-a:active {
+.top-menu nav a:active {
     color: black;
 }
 
