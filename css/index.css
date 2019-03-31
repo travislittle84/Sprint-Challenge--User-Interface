@@ -90,6 +90,20 @@ nav .nav-item {
     margin:  0 38px 0;
 }
 
+a:link {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black; 
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
 #menu-lambda-image {
     background-image: url("/img/lambda-black.png");    
     background-size: cover;
@@ -99,7 +113,7 @@ nav .nav-item {
 }
 
 #home-header-image {
-    background-image: url("/img/jumbo.png");
+    background-image: url("/img/jumbo.jpg");
     height: 153px;
     width: 100%;
     margin: 20px 0 20px 0;
