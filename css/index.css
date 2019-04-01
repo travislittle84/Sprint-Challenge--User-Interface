@@ -117,6 +117,8 @@ nav {
     margin: 20px 0 20px 0;
 }
 
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -202,6 +204,19 @@ nav {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*------ Start About Page Styling ------------ */
+.about-page .header {
+    border-bottom: 1px dashed black;
+}
+
+#about-header-image {
+    background-image: url("/img/jumbo-about.png");
+    height: 153px;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+/*------ End About Page Styling ------------ */
 
 footer {
     width: 100%;
