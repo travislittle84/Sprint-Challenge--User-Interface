@@ -117,8 +117,6 @@ nav {
     margin: 20px 0 20px 0;
 }
 
-
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -213,7 +211,6 @@ nav {
 }
 
 .about-page .content {
-    /*border: 1px solid red;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -224,6 +221,15 @@ nav {
     width: 370px;
     margin: 15px 0 15px 0;
     padding: 0 0 15px 0;
+}
+
+.about-page .item input[type="button"] {
+    padding: 10px 25px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;    
+    font-family: 'Roboto', sans-serif;
+    text-decoration: bold;
 }
 
 .about-page .item p {
@@ -247,7 +253,6 @@ nav {
     margin: 20px 0 20px 0;
 }
 /*------ End About Page Styling ------------ */
-
 footer {
     width: 100%;
     background: black;
