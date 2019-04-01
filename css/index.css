@@ -226,6 +226,14 @@ nav {
     padding: 0 0 15px 0;
 }
 
+.about-page .item p {
+    margin: 10px 0 10px 0;
+}
+
+.about-page .item h2 {
+    padding: 10px 0 0 ;
+}
+
 .about-page .item-long {
     width: 96%;
     margin: 15px 0 15px 0;
