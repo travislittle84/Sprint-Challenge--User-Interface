@@ -208,6 +208,28 @@ nav {
 /*------ Start About Page Styling ------------ */
 .about-page .header {
     border-bottom: 1px dashed black;
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+}
+
+.about-page .content {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.about-page .item {
+    border-bottom: 1px dashed black;
+    width: 370px;
+    margin: 15px 0 15px 0;
+    padding: 0 0 15px 0;
+}
+
+.about-page .item-long {
+    width: 96%;
+    margin: 15px 0 15px 0;
+    padding: 0 0 15px 0;
 }
 
 #about-header-image {
