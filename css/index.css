@@ -253,6 +253,60 @@ nav {
     margin: 20px 0 20px 0;
 }
 /*------ End About Page Styling ------------ */
+
+/*  ----- Start Product Page Styling ---------*/
+.products-page .header {
+    border-bottom: 1px dashed black;
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+}
+
+.products-page .content {
+    border: 1px solid green;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.products-page .product-container {
+    border-bottom: 1px dashed red;
+    width: 95%;
+    margin: 15px 0 15px 0;
+    padding: 0 0 15px 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start
+}
+
+.product-container-item {
+    border: 1px solid red;
+    margin: 3px;
+    padding: 3px;
+}
+
+.product-container-item img {
+    /*align-self: flex-end;*/
+}
+
+.products-page .product-container input[type="button"] {
+    padding: 10px 25px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;    
+    font-family: 'Roboto', sans-serif;
+    text-decoration: bold;
+}
+
+.products-page .item p {
+    margin: 10px 0 10px 0;
+}
+
+.productst-page .item h2 {
+    padding: 10px 0 0 ;
+}
+
+/*  ----- End Product Page Styling ---------*/
 footer {
     width: 100%;
     background: black;
