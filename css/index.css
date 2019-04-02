@@ -71,6 +71,52 @@ p {
     margin: 0 auto;
 }
 
+.top-menu {
+    width: 100%;
+    height: 60px;
+}
+
+nav {
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.top-menu nav .nav-item {
+    margin:  0 38px 0;
+}
+
+.top-menu nav a:link {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black; 
+}
+
+.top-menu nav a:visited {
+    color: black;
+}
+
+.top-menu nav a:active {
+    color: black;
+}
+
+#menu-lambda-image {
+    background-image: url("/img/lambda-black.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 157px;    
+}
+
+#home-header-image {
+    background-image: url("/img/jumbo.jpg");
+    height: 153px;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +158,37 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +203,119 @@ p {
     padding-right: 0;
 }
 
+/*------ Start About Page Styling ------------ */
+.about-page .header {
+    border-bottom: 1px dashed black;
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+}
+
+.about-page .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.about-page .item {
+    border-bottom: 1px dashed black;
+    width: 370px;
+    margin: 15px 0 15px 0;
+    padding: 0 0 15px 0;
+}
+
+.about-page .item input[type="button"] {
+    padding: 10px 25px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;    
+    font-family: 'Roboto', sans-serif;
+    text-decoration: bold;
+}
+
+.about-page .item p {
+    margin: 10px 0 10px 0;
+}
+
+.about-page .item h2 {
+    padding: 10px 0 0 ;
+}
+
+.about-page .item-long {
+    width: 96%;
+    margin: 15px 0 15px 0;
+    padding: 0 0 15px 0;
+}
+
+#about-header-image {
+    background-image: url("/img/jumbo-about.png");
+    height: 153px;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+/*------ End About Page Styling ------------ */
+
+/*  ----- Start Product Page Styling ---------*/
+.products-page .header {
+    border-bottom: 1px dashed black;
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+}
+
+.products-page h2 {
+    font-size: 28px
+}
+
+.products-page .product-container {
+    border-bottom: 1px dashed black;
+    width: 95%;
+    margin: 15px 0 15px 0;
+    padding: 0 0 15px 0;
+
+    display: flex;
+    flex-flow: column nowrap;
+    /*justify-content: space-between;*/
+}
+
+.product-container-item {
+    margin: 3px;
+    padding: 3px;
+}
+
+h2.product-container-item {
+    border: 1px solid red;
+    font-size: 24px
+}
+
+.products-page .product-container input[type="button"] {
+    padding: 10px 25px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;    
+    font-family: 'Roboto', sans-serif;
+    text-decoration: bold;
+
+
+}
+
+.product-container h2 {
+    
+}
+
+.product-container img {
+    width: 370px;
+}
+
+.products-page .item p {
+    margin: 10px 0 10px 0;
+}
+
+.productst-page .item h2 {
+    padding: 10px 0 0 ;
+    font-size: 90px;
+    
+}
+
+/*  ----- End Product Page Styling ---------*/
 footer {
     width: 100%;
     background: black;
