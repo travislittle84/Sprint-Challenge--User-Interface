@@ -261,32 +261,29 @@ nav {
     margin: 0 0 20px 0;
 }
 
-.products-page .content {
-    border: 1px solid green;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
+.products-page h2 {
+    font-size: 28px
 }
 
 .products-page .product-container {
-    border-bottom: 1px dashed red;
+    border-bottom: 1px dashed black;
     width: 95%;
     margin: 15px 0 15px 0;
     padding: 0 0 15px 0;
 
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start
+    flex-flow: column nowrap;
+    /*justify-content: space-between;*/
 }
 
 .product-container-item {
-    border: 1px solid red;
     margin: 3px;
     padding: 3px;
 }
 
-.product-container-item img {
-    /*align-self: flex-end;*/
+h2.product-container-item {
+    border: 1px solid red;
+    font-size: 24px
 }
 
 .products-page .product-container input[type="button"] {
@@ -296,6 +293,16 @@ nav {
     border-radius: 10px;    
     font-family: 'Roboto', sans-serif;
     text-decoration: bold;
+
+
+}
+
+.product-container h2 {
+    
+}
+
+.product-container img {
+    width: 370px;
 }
 
 .products-page .item p {
@@ -304,6 +311,8 @@ nav {
 
 .productst-page .item h2 {
     padding: 10px 0 0 ;
+    font-size: 90px;
+    
 }
 
 /*  ----- End Product Page Styling ---------*/
